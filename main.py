@@ -28,7 +28,10 @@ for t in tr:
 @bot.message_handler(commands=['table', 'start'])
 def boxo(message):
  bot.send_message(message.chat.id,'\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\n' +r +'\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\n')
- bot.send_message(message.chat.id,'\U000026bd\U000026bd\U000026bd\U000026bd #Any \n\U000026bd /table\U000026bd #Comment \n\U000026bd\U000026bd\U000026bd\U000026bd @eyob2m')
+ bot.send_message(message.chat.id,'\U000026bd\U000026bd\U000026bd\U000026bd  \n\U000026bd /table\U000026bd  \n\U000026bd\U000026bd\U000026bd\U000026bd')
 bot.polling() 
-
+@bot.message_handler(commands=['about'])
+def about(message):
+ bot.send_message(message.chat.id,' || @eyob2m ')
+bot.polling() 
 
