@@ -30,7 +30,7 @@ def boxo(message):
  bot.send_message(message.chat.id,'\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\n' +r +'\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\U000026bd\n')
  bot.send_message(message.chat.id,'\U000026bd\U000026bd\U000026bd\U000026bd  \n\U000026bd/table\U000026bd  \n\U000026bd\U000026bd\U000026bd\U000026bd')
 
-@bot.message_handler(commands=['about'])
+@bot.message_handler(commands=['about', 'About', 'ABOUT'])
 def about(message):
  bot.send_message(message.chat.id,' || @eyob2m ')
 bot.polling() 
