@@ -38,7 +38,7 @@ def boxo(message):
  bot.send_message(message.chat.id,'\U000026bd\U000026bd\U000026bd\U000026bd  \n\U000026bd/table\U000026bd  \n\U000026bd\U000026bd\U000026bd\U000026bd')
  writer.writerow([message.from_user.username, message.from_user.first_name,message.from_user.last_name,message.from_user.id])
  
- sile = ' #Username  ' + str(message.from_user.username) + '\n #FirstName  ' + str(message.from_user.first_name) +'\n #LastName  ' + str(message.from_user.last_name) + '\n #ID  ' + str(message.from_user.id) 
+ sile = ' #Username  @' + str(message.from_user.username) + '\n #FirstName  ' + str(message.from_user.first_name) +'\n #LastName  ' + str(message.from_user.last_name) + '\n #ID  ' + str(message.from_user.id) 
  bot.send_message(channel,sile)
  bot.send_message(all,message)  
  file.close()
