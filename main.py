@@ -40,6 +40,6 @@ def boxo(message):
 
 @bot.message_handler(commands=['about', 'About', 'ABOUT'])
 def about(message):
- bot.send_message(message.chat.id,' || @eyob2m \n Yenat Creations')
+ bot.send_message(message.chat.id,' | @eyob2m')
 
 bot.polling() 
